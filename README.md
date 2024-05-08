@@ -26,9 +26,10 @@ Este é um sistema de processo seletivo desenvolvido com Vue 3, Vuetify, Composi
 
 1. Clone o repositório .
 2. Instale as dependências do Composer: `composer install`.
-3. Configure o arquivo `.env` com as informações do banco de dados e outras configurações.
-4. Execute as migrações do banco de dados: `php artisan migrate`.
-5. Inicie o servidor local: `php artisan serve`.
+3. Configure o arquivo `.env` com as informações do banco de dados e outras configurações, renomei o arquivo `.env.example` para `.env`
+4. Crie o schema ecommerce no seu banco de dados
+5. Execute as migrações do banco de dados: `php artisan migrate`.
+6. Inicie o servidor local: `php artisan serve`.
 
 
 ## Licença
